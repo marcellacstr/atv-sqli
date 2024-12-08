@@ -1,0 +1,61 @@
+/* Estilo para o container principal */
+.dashboard-container {
+    background-color: #121212; /* Cor de fundo preto */
+    color: #fff; /* Texto branco */
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Estilo para o cabeçalho da dashboard */
+  .dashboard-header {
+    background-color: #1e1e1e; /* Fundo mais escuro para o cabeçalho */
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h2 {
+    color: #00aaff; /* Azul brilhante para o título */
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  /* Estilo para o conteúdo */
+  .dashboard-content {
+    background-color: #1e1e1e; /* Fundo para o conteúdo */
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .dashboard-content p {
+    font-size: 1.2rem;
+    color: #bbb; /* Texto cinza claro */
+  }
+  
+  /* Adiciona um efeito de hover para botões (se houver) */
+  button {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0088cc; /* Efeito de hover para o botão */
+  }
+  
