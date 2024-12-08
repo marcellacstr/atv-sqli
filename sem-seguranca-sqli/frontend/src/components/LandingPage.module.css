@@ -1,0 +1,42 @@
+/* src/components/LandingPage.module.css */
+.landingContainer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.header {
+    padding: 50px;
+    background-color: #831a1a;
+    color: white;
+}
+
+.ctaButton {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    color: #831a1a;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ctaButton:hover {
+    background-color: #e7e7e7;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.featureItem {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

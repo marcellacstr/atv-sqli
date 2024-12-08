@@ -1,0 +1,52 @@
+/* Container do formulário de login */
+.loginContainer {
+    width: 300px;
+    margin: 100px auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background: #2c2c2c; /* Fundo escuro */
+    color: white; /* Texto branco */
+    text-align: center;
+}
+
+/* Estilo dos campos de entrada */
+.inputField {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555; /* Borda escura */
+    border-radius: 4px;
+    background-color: #444; /* Fundo dos campos mais escuro */
+    color: white; /* Texto branco */
+}
+
+/* Estilo do botão de login */
+.loginButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #831a1a; /* Azul */
+    color: white; /* Texto branco */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Efeito hover no botão */
+.loginButton:hover {
+    background-color: #831a1a; /* Azul mais escuro */
+}
+
+/* Título do formulário */
+.loginContainer h2 {
+    color: #831a1a; /* Azul */
+    margin-bottom: 20px;
+}
+
+/* Mensagens de erro ou sucesso */
+.message {
+    color: #ff6347; /* Cor vermelha para erros */
+    font-size: 14px;
+    margin-top: 10px;
+}
